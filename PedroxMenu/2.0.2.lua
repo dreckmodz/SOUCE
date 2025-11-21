@@ -1,4 +1,4 @@
-local v1 = loadstring(game:HttpGet("https://paste.ee/r/aMK31yk8"))()
+local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/dreckmodz/LEAK/refs/heads/main/PedroxMenu/v1.lua"))()
 local v2 = v1:CreateWindow("Pedroxz Menu 2.0.2", "CRACKEAD DMZ", true)
 local v_u_3 = true
 local v_u_4 = false
@@ -3502,3 +3502,4 @@ else
 		end
 	end)
 end
+
