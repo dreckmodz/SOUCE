@@ -1,3 +1,4 @@
+warn("Main.lua")
 -- ══════════════════════════════════════
 --               Core				
 -- ══════════════════════════════════════
@@ -260,3 +261,4 @@ end))
 --end
 
 --Request:Post("https://scripts-zvyz.glitch.me/api/count")
+
