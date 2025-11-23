@@ -1,7 +1,7 @@
 warn("UI.lua")
 local v_u_1 = {}
 local v_u_2 = {
-	["Title"] = "<font color=\"rgb(13, 252, 77)\">Zv_yz</font> - Auto JJs",
+	["Title"] = "<font color=\"rgb(13, 252, 77)\">Crackead</font> - Auto JJs",
 	["Version"] = 2.1
 }
 game:GetService("HttpService")
@@ -572,4 +572,5 @@ function v_u_26.Destroy(p42)
 	setmetatable(v47, nil)
 end
 return setmetatable({}, v_u_26)
+
 
