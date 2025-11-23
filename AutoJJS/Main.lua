@@ -33,13 +33,11 @@ local LP = Players.LocalPlayer
 -- ══════════════════════════════════════
 --              Modules				
 -- ══════════════════════════════════════
-local UI = require("UI")
+local UI = require("UI.lua")
 --local Notification = require("Notification")
 
 local Extenso = require("Extenso.lua")
-local Character = require("Character.lua")
-local RemoteChat = require("RemoteChat.lua")
-local Request = require("Request.lua")
+
 
 -- ══════════════════════════════════════
 --  	        Constants				
@@ -261,4 +259,5 @@ end))
 --end
 
 --Request:Post("https://scripts-zvyz.glitch.me/api/count")
+
 
