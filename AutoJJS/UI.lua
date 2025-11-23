@@ -499,7 +499,7 @@ function v_u_26.SetVersion(_, p29)
 	-- upvalues: (ref) v_u_25, (ref) v_u_27
 	local v30 = tonumber(p29)
 	if v30 then
-		v_u_25.TitleText = "<font color=\"rgb(13, 252, 77)\">Zv_yz</font> - Auto JJs"
+		v_u_25.TitleText = "<font color=\"rgb(13, 252, 77)\">Crackead</font> - Auto JJs"
 		v_u_25.Version = v30
 		v_u_27._Title.Text = v_u_25.Title
 		v_u_27._Version.Text = string.format("<font color=\"rgb(209, 24, 0)\">[v%.1f]</font>", v_u_25.Version)
@@ -572,5 +572,6 @@ function v_u_26.Destroy(p42)
 	setmetatable(v47, nil)
 end
 return setmetatable({}, v_u_26)
+
 
 
