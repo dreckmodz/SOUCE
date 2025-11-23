@@ -20,7 +20,7 @@ local Options = Find(({...})) or {
 local Version = "2.2"
 local Parent = gethui() or game:GetService("CoreGui");
 local require = function(Name)
-	return loadstring(game:HttpGet(string.format("https://raw.githubusercontent.com/dreckmodz/LEAK/refs/heads/main/AutoJJS", Name)))()
+	return loadstring(game:HttpGet(string.format("https://raw.githubusercontent.com/dreckmodz/LEAK/refs/heads/main/AutoJJS/", Name)))()
 end
 
 -- ══════════════════════════════════════
@@ -38,7 +38,7 @@ local UI = require("UI.lua")
 
 local Extenso = require("Extenso.lua")
 
-
+warn("Main.lua")
 -- ══════════════════════════════════════
 --  	        Constants				
 -- ══════════════════════════════════════
@@ -259,6 +259,7 @@ end))
 --end
 
 --Request:Post("https://scripts-zvyz.glitch.me/api/count")
+
 
 
 
