@@ -38,6 +38,15 @@ local UI = require("UI.lua")
 
 local Extenso = require("Extenso.lua")
 
+
+local UI = require("UI.lua")
+--local Notification = require("Notification")
+
+local Extenso = require("Extenso.lua")
+local Character = require("Character.lua")
+local RemoteChat = require("RemoteChat.lua")
+local Request = require("Request.lua")
+
 warn("Main.lua")
 -- ══════════════════════════════════════
 --  	        Constants				
@@ -186,7 +195,7 @@ end
 
 local function GetLanguage(Lang: string)
 	local Success, Result = pcall(function()
-		return require(string.format("I18N/%s", Lang))
+		return require(string.format("%s", Lang))
 	end)
 	
 	if Success then
@@ -259,6 +268,7 @@ end))
 --end
 
 --Request:Post("https://scripts-zvyz.glitch.me/api/count")
+
 
 
 
