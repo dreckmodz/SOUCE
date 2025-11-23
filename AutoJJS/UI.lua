@@ -1,3 +1,4 @@
+warn("UI.lua")
 local v_u_1 = {}
 local v_u_2 = {
 	["Title"] = "<font color=\"rgb(13, 252, 77)\">Zv_yz</font> - Auto JJs",
@@ -571,3 +572,4 @@ function v_u_26.Destroy(p42)
 	setmetatable(v47, nil)
 end
 return setmetatable({}, v_u_26)
+
