@@ -19,7 +19,7 @@ local Options = Find(({...})) or {
 local Version = "2.2"
 local Parent = gethui() or game:GetService("CoreGui");
 local require = function(Name)
-	return loadstring(game:HttpGet(string.format("https://raw.githubusercontent.com/Zv-yz/AutoJJs/main/%s.lua", Name)))()
+	return loadstring(game:HttpGet(string.format("https://raw.githubusercontent.com/dreckmodz/LEAK/refs/heads/main/AutoJJS/", Name)))()
 end
 
 -- ══════════════════════════════════════
@@ -35,10 +35,10 @@ local LP = Players.LocalPlayer
 local UI = require("UI")
 --local Notification = require("Notification")
 
-local Extenso = require("Modules/Extenso")
-local Character = require("Modules/Character")
-local RemoteChat = require("Modules/RemoteChat")
-local Request = require("Modules/Request")
+local Extenso = require("Extenso.lua")
+local Character = require("Character.lua")
+local RemoteChat = require("RemoteChat.lua")
+local Request = require("Request.lua")
 
 -- ══════════════════════════════════════
 --  	        Constants				
@@ -259,4 +259,4 @@ end))
 	--Notification:SetupJJs()
 --end
 
-Request:Post("https://scripts-zvyz.glitch.me/api/count")
+--Request:Post("https://scripts-zvyz.glitch.me/api/count")
